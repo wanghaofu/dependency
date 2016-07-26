@@ -1,0 +1,17 @@
+{
+    "name": "common/dependency",
+    "autoload": {
+        "psr-4": {
+            "Common\\Dependency\\": "src"
+        }
+    },
+    "prefer-stable": true,
+    "repositories": [
+        {"type": "composer", "url": "http:///toran.moefantasy.com/repo/private/"},
+        {"type": "composer", "url": "http://satis.moefantasy.com/"},
+        {"packagist": false}
+    ],
+    "require": {
+        "pimple/pimple": "~3.0"
+    }
+}
