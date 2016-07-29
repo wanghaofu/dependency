@@ -58,6 +58,7 @@ class Dependency
 
     /**
      * @return mixed
+     * @description  resource
      */
     public function packageConfig($key)
     {
