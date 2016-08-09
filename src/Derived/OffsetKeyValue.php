@@ -3,8 +3,7 @@
 use Common\Dependency\Interfaces\IKeyValue;
 use Common\Dependency\Traits\KeyValueTrait;
 
-/**
- */
+
 class OffsetKeyValue implements IKeyValue, \ArrayAccess
 {
     use KeyValueTrait;
